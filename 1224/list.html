@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resetCss.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .headerWarpper{
+            background-color: #000;
+            color: #fff;
+            padding: 0px 50px;
+        }
+        .header{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .menuItem{
+            display: flex;
+            gap: 10px;
+        }
+        .page{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="warpper">
+        <div class="headerWarpper">
+            <div class="header">
+                <div class="logo">LOGO</div>
+                <div class="menu">
+                    <ul class="menuItem">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Anout</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="home" class="page home">Home</div>
+        <div id="about" class="page about">About</div>
+        <div id="contactUs" class="page contactUs">Contact Us</div>
+    </div>
+    
+</body>
+</html>

@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media</title>
+    <style>
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-wrap {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid red;
+        }
+
+        .responsive-video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
     <h1>media</h1>
-    <img src="../assets/cat1224.jpg" alt="cat">
+    <img src="../assets/cat1224.jpg" alt="cat" class="responsive-image">
+    <video controls loop autoplay muted class="responsive-video">
+        <source src="../assets/vidoes/sample-5s.mp4" type="video/mp4">
+    </video>
 
 </body>
 
