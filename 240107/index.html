@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .z-block-wrap {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* background:#dedede; */
+}
+
+.z-block-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: 
+yellow;
+}
+
+.z-99 {
+    z-index: 99;
+}
+
+.z-block-item.item-2 {
+    background: 
+red;
+    top: 10px;
+    left: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="z-block-wrap">
+        <div class="z-block-item item-1">
+            <div class="z-99">z-index 99</div>
+        </div>
+        <div class="z-block-item item-2">
+            <div class="z-10">z-index 10</div>
+        </div>
+    </div>
+</body>
+</html>
