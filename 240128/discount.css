@@ -1,0 +1,70 @@
+.slogan {
+    margin: 20px auto;
+}
+
+.demo {
+    margin: 20px 0;
+    border: 2px dashed #8f8f8f;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+}
+
+.product-list .item{
+    background-color: #f7a8a8;
+    color: #fff;
+    padding: 10px;
+}
+.product-list .item .cover{
+    height: 200px;
+    min-width: 100px;
+    background-color: #80a782;
+    margin-bottom: 15px;
+    /* background-image: url(../images/food-2.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.product-list .cover .discount{
+    position: absolute;
+    background: #ffffff;
+    color: rgb(255, 43, 43);
+    width: 100%;
+    text-align: center;
+    transform: rotate(30deg);
+    top: 12px;
+    right: -50px;
+}
+.product-list .item .name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.product-list .item .content {
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.product-list .item .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-list .item .buy-now {
+    padding: 10px 20px;
+    border: 0;
+    background: rgb(16, 190, 94);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product-list .item .buy-now:hover {
+    background: rgb(10, 155, 75);
+}
