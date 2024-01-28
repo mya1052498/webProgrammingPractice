@@ -1,0 +1,7 @@
+2024-01-28 10:48:14.528 [info] update#setState idle
+2024-01-28 10:48:15.963 [info] WSL is not installed, so could not detect WSL profiles
+2024-01-28 10:48:44.514 [info] update#setState checking for updates
+2024-01-28 10:48:44.622 [info] update#setState idle
+2024-01-28 10:49:44.061 [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+2024-01-28 10:49:44.092 [info] Extension host with pid 5472 exited with code: 0, signal: unknown.
+2024-01-28 10:49:45.095 [error] Extension host with pid 5472 still exists, forcefully killing it...

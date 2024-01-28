@@ -1,0 +1,67 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///c%3A/Users/Appedu/Downloads/webProgrammingPractice": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1706409957601": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "{14028839-C3F3-4DAD-A76E-0EE1B58A191D}",
+    "telemetry.machineId": "e54d4f5a9ad55cdaac1ad57f4eb4f2bc82695d814a8347ee1bfdc32e1ded21e4",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///c%3A/Users/Appedu/Downloads/webProgrammingPractice"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1706409957601"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 256,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///c%3A/Users/Appedu/Downloads/webProgrammingPractice",
+            "backupPath": "C:\\Users\\Appedu\\Downloads\\VSCode-win32-x64-1.85.2\\data\\user-data\\Backups\\a2ee73a550eab99dae1f5c6fdb1d21d9",
+            "uiState": {
+                "mode": 0,
+                "x": 480,
+                "y": 63,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
+}
