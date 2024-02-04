@@ -86,4 +86,38 @@
         }
     }
 
+    #join-form .wrap {
+        flex-direction: column;
+
+    }#join-form .wrap>div {
+        width: 100%;
+    }#join-form .wrap>div:first-child::after {
+        top: unset;
+        right: unset;
+        bottom: 0;
+        left: 20px;
+        height: 0;
+        width: calc(100% - 40px);
+    }
+
+    @media screen and (max-width: 700px) {
+        .flow .item:nth-child(even) .tip {
+            right: unset;
+            left: 70px;
+        }
+    
+        .flow .item {
+            justify-content: flex-start;
+            padding-left: 20px;
+            margin-bottom: 85px;
+        }
+    
+        .flow .item .tip {
+            left: 70px;
+        }
+    
+        .flow::after {
+            left: 33px;
+        }
+
 }
