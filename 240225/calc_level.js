@@ -41,7 +41,10 @@ const numInRange = (num) => {
     dom_num.focus();
 
 const focusToNum = () => {
-    // 請實作
+    dom_num.value = '';
+    setTimeout(() => {
+        dom_num.focus();
+    }, 500)
 }
 
 
@@ -62,8 +65,7 @@ const calcLevel = (e) => {
             icon: 'error'
         })
         // 計算後要將焦點放到分數輸入區塊 [v]
-        dom_num.value = '';
-        dom_num.focus();
+        focusToNum();
         return;
     }
 
@@ -75,8 +77,7 @@ const calcLevel = (e) => {
             icon: 'error'
         })
         // 計算後要將焦點放到分數輸入區塊 [v]
-        dom_num.value = '';
-        dom_num.focus();
+        focusToNum();
         return;
     }
 
@@ -88,11 +89,21 @@ const calcLevel = (e) => {
     dom_response.innerHTML = content;
     dom_response.classList.remove('d-none');
     // 計算後要將焦點放到分數輸入區塊 [v]
-    dom_num.value = '';
-    dom_num.focus();
+    focusToNum();
 }
 
 dom_calc_btn.addEventListener('click', calcLevel);
+
+const triggerCalc = (e) => {
+    let key = e.key;
+    if (key && key.toUpperCase() == 'ENTER') {
+        calcLevel(e);
+    }
+}
+
+dom_num.addEventListener('keyup', triggerCalc);
+
+
 
 
 // dom_calc_btn.addEventListener('click', (e) => {
